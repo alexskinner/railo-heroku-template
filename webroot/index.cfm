@@ -1,9 +1,10 @@
 This is some code on DOkku 1 fuck yeah!!!!
 
-<cfset system = CreateObject("java", "java.lang.System")>
-<cfset environment = system.getenv()>
+<cfquery datasource="mydatasource" name="qTables">
+show tables
+</cfquery>
 
-<cfdump var="#environment#">
+<cfdump var="#qTables#">
 
 <cfscript>
 dump(request);
