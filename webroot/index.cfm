@@ -1,10 +1,10 @@
 This is some code on DOkku 1 fuck yeah!!!!
-<!------>
+<!---
 <cfquery datasource="mydatasource" name="qTables" timeout="10">
 show tables
 </cfquery>
-
-<cfdump var="#qTables#">
+--->
+<cfdump var="#CreateObject("java", "java.lang.System").getenv()#">
 
 
 
