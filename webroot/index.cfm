@@ -1,4 +1,4 @@
-dookku test 1 
+This is some code on DOkku 1
 
 <cfscript>
 dump(request);
