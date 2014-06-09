@@ -1,15 +1,8 @@
 This is some code on DOkku 1 fuck yeah!!!!
-<!---
+
 <cfquery datasource="mydatasource" name="qTables" timeout="10">
-show tables
+select 1
 </cfquery>
---->
-<cfdump var="#CreateObject("java", "java.lang.System").getenv()#">
+<cfdump var="#qTables#">
 
 
-
-
-
-<cfscript>
-dump(cgi);
-</cfscript>
