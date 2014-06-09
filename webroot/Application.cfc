@@ -5,7 +5,7 @@ component {
 
 	this.datasources.mydatasource={
 	  class:'org.gjt.mm.mysql.Driver'
-		,connectionString:"jdbc:"&environment.DATABASE_URL
+		,connectionString:"jdbc:"&replace(environment.DATABASE_URL,"mysql2","mysql","all")
 		,username:environment.DB_USER
 		,password:environment.DB_PASSWORD
 	};
