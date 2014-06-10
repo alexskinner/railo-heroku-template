@@ -1,4 +1,4 @@
-This is some code on DOkku 1 fuck yeah!!!!
+Hello Niall
 
 <cfquery datasource="mydatasource" name="qTables" timeout="10">
 show databases
